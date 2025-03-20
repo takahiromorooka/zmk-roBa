@@ -32,7 +32,7 @@
         };
 
         quotation {
-            bindings = <&kp LC(SINGLE_QUOTE)>;
+            bindings = <&kp SINGLE_QUOTE>;
             key-positions = <20 21>;
         };
 
