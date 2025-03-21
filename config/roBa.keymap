@@ -12,6 +12,10 @@
     quick-tap-ms = <500>;
 };
 
+&mmv_input_listener {
+    input-processors = <&zip_temp_layer 2 2000>;
+}
+
 / {
     combos {
         compatible = "zmk,combos";
