@@ -9,7 +9,7 @@
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <0>;
+    quick-tap-ms = <100>;
 };
 
 / {
@@ -45,11 +45,6 @@
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
         };
-
-        shift {
-            bindings = <&kp LSHFT>;
-            key-positions = <39 40>;
-        };
     };
 
     macros {
@@ -77,10 +72,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R            &kp T                                             &kp Y                   &kp U  &kp I        &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F            &kp G             &kp ESCAPE       &kp MINUS      &kp H                   &kp J  &kp K        &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V            &kp B             &kp EQUAL        &kp SQT        &kp N                   &kp M  &lt 5 COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 LC(SPACE)  &mt LEFT_GUI TAB  &lt 2 SPACE      &kp BACKSPACE  &lt_to_layer_0 3 SPACE                               &mt RIGHT_SHIFT ENTER
+&kp Q             &kp W         &kp E         &kp R            &kp T                                                         &kp Y                   &kp U  &kp I        &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F            &kp G             &kp ESCAPE       &kp MINUS                  &kp H                   &kp J  &kp K        &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V            &kp B             &kp EQUAL        &kp SQT                    &kp N                   &kp M  &lt 5 COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 LC(SPACE)  &mt LEFT_GUI TAB  &lt 2 SPACE      &mt RIGHT_SHIFT BACKSPACE  &lt_to_layer_0 3 SPACE                               &mt RIGHT_SHIFT ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
