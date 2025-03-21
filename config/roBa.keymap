@@ -13,7 +13,7 @@
 
 &hid_trackball_interface {
     automouse-layer = <4>;
-    automouse-layer-timeout-ms = <300>;
+    automouse-layer-timeout-ms = <100>;
     scroll-layers = <5>;
 };
 
