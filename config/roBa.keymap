@@ -5,9 +5,17 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
 #include <dt-bindings/zmk/pointing.h>
 
+#include <interfaces/hid-trackball.dtsi>
+
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
+
+&hid_trackball_interface {
+    automouse-layer = <4>;
+    automouse-layer-timeout-ms = <500>;
+    scroll-layers = <5>;
+};
 
 &mt {
     flavor = "balanced";
