@@ -5,6 +5,8 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
 #include <dt-bindings/zmk/pointing.h>
 
+#include <input/processors.dtsi>
+
 #include <interfaces/hid-trackball.dtsi>
 
 #define MOUSE 4
@@ -16,6 +18,10 @@
     automouse-layer-timeout-ms = <100>;
     scroll-layers = <5>;
 };
+
+&mmv_input_listener {
+    input-processors = <&zip_temp_layer 2 500>;
+}
 
 &mt {
     flavor = "balanced";
