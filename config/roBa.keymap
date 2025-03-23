@@ -45,6 +45,16 @@
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
         };
+
+        under_score {
+            bindings = <&kp RS(MINUS)>;
+            key-positions = <7 8>;
+        };
+
+        double_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
