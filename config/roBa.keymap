@@ -98,8 +98,8 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R             &kp T                                                                    &kp Y  &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G             &kp ESCAPE                  &kp MINUS                  &kp H  &kp J  &lt 5 K    &kp L    &lt_to_layer_0 4 SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B             &kp TAB                     &kp SQT                    &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_GUI TAB  &mt LEFT_GUI TAB  &lt_to_layer_0 2 SPACE      &mt RIGHT_SHIFT BACKSPACE  &mo 3                             &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B             &kp EQUAL                   &kp SQT                    &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_GUI TAB  &mt LEFT_GUI TAB  &lt_to_layer_0 2 SPACE      &mt RIGHT_SHIFT BACKSPACE  &mo 3                             &lt_to_layer_0 4 ENTER
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -139,7 +139,7 @@
 &trans     &kp LG(W)  &trans     &kp LG(R)  &kp LG(T)                      &kp LS(LG(LEFT_BRACKET))  &kp LG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &kp RS(RG(RIGHT_BRACKET))  &trans
 &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &trans     &trans      &trans  &trans                    &mkp MB1            &kp RC(UP_ARROW)     &mkp MB2                   &trans
 &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans     &trans      &trans  &trans                    &kp LC(LEFT_ARROW)  &trans               &kp RC(RIGHT_ARROW)        &trans
-&trans     &trans     &trans     &trans     &mo 4      &trans      &trans  &trans                                                                                        &trans
+&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                                                                        &trans
             >;
         };
 
