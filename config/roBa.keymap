@@ -13,6 +13,8 @@
     quick-tap-ms = <500>;
 };
 
+&sl { release-after-ms = <0>; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -92,7 +94,7 @@
 &kp Q             &kp W         &kp E         &kp R             &kp T                                                         &kp Y  &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G  &kp ESCAPE                  &kp MINUS                  &kp H  &kp J  &lt 5 K    &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B  &kp TAB                     &kp SQT                    &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_GUI TAB  &mo 4  &lt_to_layer_0 2 SPACE      &mt RIGHT_SHIFT BACKSPACE  &mo 3                             &kp ENTER
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_GUI TAB  &sl 4  &lt_to_layer_0 2 SPACE      &mt RIGHT_SHIFT BACKSPACE  &mo 3                             &kp ENTER
             >;
 
             sensor-bindings = <&scroll_up_down>;
