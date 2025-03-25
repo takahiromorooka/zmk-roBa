@@ -21,12 +21,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <11 10>;
         };
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            key-positions = <11 12>;
         };
 
         quotation {
@@ -52,6 +52,11 @@
         double_quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <19 20>;
+        };
+
+        change_input_lang {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <13 12>;
         };
     };
 
