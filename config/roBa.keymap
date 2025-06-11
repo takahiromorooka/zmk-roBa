@@ -48,6 +48,16 @@
             bindings = <&kp LC(SPACE)>;
             key-positions = <13 12>;
         };
+
+        back_slash {
+            bindings = <&kp NON_US_BACKSLASH>;
+            key-positions = <31 32>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <32 33>;
+        };
     };
 
     macros {
