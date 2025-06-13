@@ -50,7 +50,7 @@
         };
 
         back_slash {
-            bindings = <&kp NON_US_BACKSLASH>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <31 32>;
         };
 
