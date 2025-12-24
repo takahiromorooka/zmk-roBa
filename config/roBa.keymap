@@ -127,7 +127,7 @@
             bindings = <
 &trans          &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                            &trans  &trans                    &kp UP_ARROW  &trans                     &trans
 &trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans      &trans  &trans  &kp LEFT_ARROW            &kp DOWN      &kp RIGHT_ARROW            &trans
-&trans          &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans      &trans  &trans  &kp RA(RC(LEFT_BRACKET))  &trans        &kp RC(RA(RIGHT_BRACKET))  &trans
+&trans          &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans      &trans  &trans  &kp LA(LC(LEFT_BRACKET))  &trans        &kp LA(LC(RIGHT_BRACKET))  &trans
 &kp LEFT_SHIFT  &trans  &trans                &trans                 &kp LEFT_GUI  &trans      &trans  &trans                                                                     &trans
             >;
 
