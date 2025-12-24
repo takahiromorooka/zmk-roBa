@@ -116,19 +116,19 @@
 
         NUM {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR            &kp PERCENT                                   &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp PLUS      &kp EQUAL
-&kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp N5          &kp PLUS       &kp PIPE       &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans           &trans        &trans        &kp LG(LS(NUMBER_4))  &kp RG(RS(N5))  &kp EQUAL      &kp BACKSLASH  &trans        &trans         &trans        &trans        &trans
-&trans           &trans        &trans        &trans                &trans          &trans         &trans         &trans                                                   &trans
+&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR            &kp PERCENT                                   &kp CARET     &kp AMPERSAND  &kp ASTERISK   &kp PLUS          &kp EQUAL
+&kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp N5          &kp PLUS       &kp PIPE       &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9      &kp NUMBER_0
+&trans           &trans        &trans        &kp LG(LS(NUMBER_4))  &kp RG(RS(N5))  &kp EQUAL      &kp BACKSLASH  &kp TILDE     &trans         &kp LESS_THAN  &kp GREATER_THAN  &trans
+&trans           &trans        &trans        &trans                &trans          &trans         &trans         &trans                                                        &trans
             >;
         };
 
         ARROW {
             bindings = <
-&trans          &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                            &trans  &trans          &kp UP_ARROW  &trans           &trans
-&trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans
-&trans          &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans      &trans  &trans  &trans          &trans        &trans           &trans
-&kp LEFT_SHIFT  &trans  &trans                &trans                 &kp LEFT_GUI  &trans      &trans  &trans                                                 &trans
+&trans          &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                            &trans  &trans                    &kp UP_ARROW  &trans                     &trans
+&trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans      &trans  &trans  &kp LEFT_ARROW            &kp DOWN      &kp RIGHT_ARROW            &trans
+&trans          &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans      &trans  &trans  &kp RC(RA(LEFT_BRACKET))  &trans        &kp RC(RA(RIGHT_BRACKET))  &trans
+&kp LEFT_SHIFT  &trans  &trans                &trans                 &kp LEFT_GUI  &trans      &trans  &trans                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
